@@ -24,6 +24,7 @@ Overall, this project demonstrates the potential for E-graphs to be used in a va
 │   └── Optimizer.hs
 ├── src/
 │   ├── Compiler/
+|   |   ├── AST.hs
 │   │   ├── Lexer.hs
 │   │   ├── Parser.hs
 │   │   ├── SemanticAnalyzer.hs
