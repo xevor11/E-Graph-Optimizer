@@ -1,0 +1,36 @@
+-- Initial version of the Cabal package specification
+cabal-version: 2.4
+
+-- Package name, version and license
+name:           E-Graph Optimizer
+version:        0.1.0.0
+license:        BSD3
+
+-- Package author and maintainer
+author:         Vedant Tewari
+maintainer:     vedanttewari2000@gmail.com
+
+-- Package description and homepage
+description:    A project for compiling and optimizing code.
+homepage:       https://github.com/Vtewari2311/E-Graph Optimizer
+
+-- Build type and dependencies
+build-type:     Simple
+extra-source-files:  README.md, LICENSE
+cabal-version:  >= 2.4
+build-depends:  base >=4.14 && <4.15
+              , containers >=0.6 && <0.7
+              , text >=1.2 && <1.3
+              , parsec >=3.1 && <3.2
+              , QuickCheck >=2.14 && <2.15
+              , hspec >=2.7 && <2.8
+              , tasty >=1.4 && <1.5
+              , tasty-hspec >=1.1 && <1.2
+
+-- Executable section
+executable my_project
+  main-is:        app/Main.hs
+  hs-source-dirs: app
+  ghc-options:    -Wall -threaded -rtsopts
+  build-depends:  base >=4.14 && <4.15
+                , my_project
