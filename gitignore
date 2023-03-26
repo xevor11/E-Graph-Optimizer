@@ -1,0 +1,46 @@
+# Ignore build artifacts and executables
+dist/
+build/
+*.hi
+*.o
+*.hie
+*.hie*
+*.swp
+*.ghc.environment.*
+*.prof
+.stack-work/
+stack.yaml.lock
+.cabal-sandbox/
+cabal.sandbox.config
+*.aux
+*.hp
+*.eventlog
+*.tix
+*.mix
+*.p_o
+*.p_hi
+*.dyn_o
+*.dyn_hi
+
+# Ignore stack-specific files
+.stack-work/
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore Cabal files
+*.cabal
+cabal.project.local
+
+# Ignore package databases
+*/.ghc.environment.*
+cabal.store
+cabal.project.local
+.stack-work/
+
+# Ignore Haddock documentation
+dist/doc/
+
+# Ignore custom output directories (add more as needed)
+output/
