@@ -30,15 +30,22 @@ Overall, this project demonstrates the potential for E-graphs to be used in a va
 │   │   ├── SymbolTable.hs
 │   │   └── CodeGenerator.hs
 │   └── Lib.hs
-└── test/
-    ├── Spec.hs
-    └── TestCompiler/
-        ├── LexerSpec.hs
-        ├── ParserSpec.hs
-        ├── SemanticAnalyzerSpec.hs
-        ├── SymbolTableSpec.hs
-        ├── CodeGeneratorSpec.hs
-        └── OptimizerSpec.hs
+│
+├── test/
+│    ├── Spec.hs
+│    └── TestCompiler/
+│        ├── LexerSpec.hs
+│        ├── ParserSpec.hs
+│        ├── SemanticAnalyzerSpec.hs
+│        ├── SymbolTableSpec.hs
+│        ├── CodeGeneratorSpec.hs
+│        └── OptimizerSpec.hs
+├── README.md
+├── LICENSE
+├── .gitignore
+├── stack.yaml
+└── project.cabal
+
 ```
 
 # Installation Instructions
